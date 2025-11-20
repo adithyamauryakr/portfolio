@@ -23,7 +23,7 @@ function App() {
           <div className="grid gap-12 lg:grid-cols-[1.1fr,0.9fr] items-center">
             <div className="space-y-6">
               <div>
-                <p className="text-sm uppercase tracking-[0.3em] text-[#59ebe3] mb-3">Chemical Sciences | ML for Materials</p>
+                <p className="text-sm uppercase tracking-[0.3em] text-[#59ebe3] mb-3">Chemical Sciences | AI/ML for Chemistry</p>
                 <h2 className="text-5xl font-bold text-gray-900 leading-tight">Hi, I'm Adithya</h2>
               </div>
               <p className="text-2xl text-[#5771fe] font-medium">Chemical Sciences Researcher & Machine Learning Enthusiast</p>
@@ -69,7 +69,7 @@ function App() {
                 <h3 className="text-xl font-semibold mb-2">Education</h3>
                 <p className="text-gray-600">Int-M.Sc. Chemical Sciences</p>
                 <p className="text-sm text-gray-500 mt-1">CGPA: 8.56/10</p>
-                <p className="text-sm text-[#59ebe3] font-medium mt-2">1st Rank in Major</p>
+                <p className="text-sm text-[#59ebe3] font-medium mt-2">1st Rank in Chemical Sciences Major</p>
               </div>
               <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
                 <Briefcase className="text-[#5771fe] mb-4" size={32} />
