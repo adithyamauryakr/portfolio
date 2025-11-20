@@ -1,4 +1,4 @@
-import { Mail, Github, GraduationCap, Briefcase, Award, FileText, ExternalLink } from 'lucide-react';
+import { Mail, Github, Linkedin, GraduationCap, Briefcase, Award, FileText, ExternalLink } from 'lucide-react';
 import cvPdf from './assets/CV_AdithyaMauryaKR.pdf';
 import portraitImg from './assets/IMG_6535-011.jpeg';
 
@@ -40,6 +40,10 @@ function App() {
                 <a href="https://github.com/adithyamauryakr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-[#5771fe] hover:text-[#5771fe] transition-colors">
                   <Github size={20} />
                   <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/adithyamauryakr/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-[#5771fe] hover:text-[#5771fe] transition-colors">
+                  <Linkedin size={20} />
+                  <span>LinkedIn</span>
                 </a>
                 <a href={cvPdf} download className="flex items-center gap-2 px-6 py-3 border border-[#5771fe] text-[#5771fe] rounded-lg hover:bg-[#5771fe]/10 transition-colors">
                   <FileText size={20} />
@@ -281,10 +285,13 @@ function App() {
                 <Github size={20} />
                 <span>GitHub</span>
               </a>
+              <a href="https://www.linkedin.com/in/adithyamauryakr/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-[#5771fe] hover:text-[#5771fe] transition-colors">
+                <Linkedin size={20} />
+                <span>LinkedIn</span>
+              </a>
             </div>
             <div className="mt-8 pt-8 border-t border-gray-200">
               <p className="text-gray-500">Mumbai, India</p>
-              <p className="text-gray-500 mt-1">+91 6363013855</p>
             </div>
           </div>
         </section>
