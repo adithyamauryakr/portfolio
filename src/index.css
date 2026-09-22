@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-alice text-jet antialiased dark:bg-jet dark:text-alice;
+    font-feature-settings: 'ss01' 1;
+  }
+
+  ::selection {
+    @apply bg-emerald/30 text-jet dark:text-alice;
+  }
+}
